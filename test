@@ -15,8 +15,6 @@ Sudo passwd „benutzername“
 Sudo usermod -L anton.steiner	
 grep user1 /etc/shadow
 
-ip addr show | grep 'inet ' >> Linux_Sysinfos.txt
-ip link show | awk '/ether/' >> Linux_Sysinfos.txt
-ip route | awk '/default/' >> Linux_Sysinfos.txt
-free -h >> Linux_Sysinfos.txt
-df -h >> Linux_Sysinfos.txt
+ip a >> linux.txt
+free -h >> linux.txt
+df -h >> linux.txt
