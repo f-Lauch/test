@@ -16,15 +16,21 @@ Subnetz	Netz-ID	Host Bereich	Brodcast-ID
 
 net use T: \\ipadresse\freigabe\ordner
 
-Linux Befehle
+
 sudo apt-get update
 sudo apt-get install isc-dhcp-client
 sudo dhclient	Dhcp aktivieren
 
-Sudo hostnamectl set-hostname „hostname“	Host Name ändern
-Sudo useradd „benutzername“	Neuen Benutzer erstellen
-Sudo passwd „benutzername“	Passwort setzen
-Usermod -L -e 1 username	Benutzer sperren 
-Usermod -U -e -1	Benutzer aktivieren
-Sudo usermod -L anton.steiner	
+Sudo hostnamectl set-hostname „hostname“
 
+Sudo useradd „benutzername“
+Sudo passwd „benutzername“
+
+Sudo usermod -L anton.steiner	
+grep user1 /etc/shadow
+
+ip addr show | grep 'inet ' >> Linux_Sysinfos.txt
+ip link show | awk '/ether/' >> Linux_Sysinfos.txt
+ip route | awk '/default/' >> Linux_Sysinfos.txt
+free -h >> Linux_Sysinfos.txt
+df -h >> Linux_Sysinfos.txt
