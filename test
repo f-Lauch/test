@@ -1,18 +1,5 @@
 
  
-Inhaltsverzeichnis
-Netzwerk Informationen	2
-Subnetze	2
-Reservierte IP-Adressen	2
-Weiteres	2
-Client und Server Informationen	3
-Server	3
-Clients	3
-Domänen Benutzer	3
-Order Berechtigungen	3
-Domain Informationen	3
-
- 
 Netzwerk Informationen
 
 Subnetze
@@ -27,49 +14,7 @@ Subnetz	Netz-ID	Host Bereich	Brodcast-ID
 3	10.0.3.129	10.0.3.130 – 10.0.3.190	10.0.3.191
 4	10.0.3.192	10.0.3.193 – 10.0.3.254	10.0.3.255
 
-Reservierte IP-Adressen
-Name	IP-Adresse	MAC
-		
-		
-		
-
-Weiteres
-DHCP im Subnetz 4 über DC-Server
-
- 
-Client und Server Informationen - Subnetz 4
-Server
-Name	Dienste	IP-Adresse	Benutzer	Passwort
-				
-				
-				
-
-Clients
-Benutzer	Passwort
-	
-
-Domänen Benutzer
-Benutzername	Passwort	Abteilung
-		
-
-Order Berechtigungen
-Ordner	Abteilung	Berechtigungsart
-		
-
-
-Domain Informationen
-Domänenname	Lap.lan
-	
-
- 
-Linux - Subnetz 4
-
-Name	IP-Adresse	MAC	Info
-Lclient			
-
-Benutzer
-Benutzer	Passwort	Info
-Joe	123	Root Benutzer
+net use T: \\ipadresse\freigabe\ordner
 
 Linux Befehle
 sudo apt-get update
