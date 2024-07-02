@@ -24,4 +24,4 @@ ip nat inside
 
 access-list 1 permit 192.168.1.0 0.0.0.255
 ip nat inside source list 1 interface GigabitEthernet0/0 overload
-ip nat inside source static tcp 192.168.1.10 80 50.50.50.1 80
+ip nat inside source static tcp 192.168.1.2 80 10.0.0.254 80
