@@ -1,18 +1,4 @@
 
- 
-Netzwerk Informationen
-
-Subnetze
-Breitgestellte IP-Adresse: 10.0.LAPNR.0 /24
-Benötigte Netze 4
-Neue Subnetzmaske /26
-255.255.255.192
-Client Pro Netz 64
-Subnetz	Netz-ID	Host Bereich	Brodcast-ID
-1	10.0.3.0	10.0.3.0 – 10.0.3.62	10.0.3.63
-2	10.0.3.64	10.0.3.65 – 10.0.3.127	10.0.3.128
-3	10.0.3.129	10.0.3.130 – 10.0.3.190	10.0.3.191
-4	10.0.3.192	10.0.3.193 – 10.0.3.254	10.0.3.255
 
 net use T: \\ipadresse\freigabe\ordner
 
